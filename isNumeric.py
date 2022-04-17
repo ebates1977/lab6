@@ -6,6 +6,6 @@ def is_numeric(num):
   elif isinstance(num, float):
     return True
   else:
-    print(False)
+    return False
 
 print(is_numeric(num))
